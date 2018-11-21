@@ -1,26 +1,5 @@
-<h6>This is a simple online shopping project using Laravel framework. I use W3 Layouts templets and bootstrap templates here</h6>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h2>This is a simple online shopping project using Laravel framework. I use W3 Layouts templets and bootstrap templates here</h2>
+<hr/><hr/><hr/>
 
 
 

@@ -1,3 +1,32 @@
+<h4>This is a simple online shopping project using Laravel framework. I use W3 Layouts templets and bootstrap templates here</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">

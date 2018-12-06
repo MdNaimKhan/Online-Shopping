@@ -45,6 +45,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!--start-rate-->
     <script src="{{ asset('/front/') }}/js/jstarbox.js"></script>
     <link rel="stylesheet" href="{{ asset('/front/') }}/css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
+    <script defer src="{{ asset('/front/') }}/js/jquery.flexslider.js"></script>
+    <link rel="stylesheet" href="{{ asset('/front/') }}/css/flexslider.css" type="text/css" media="screen" />
+    <script src="{{ asset('/front/') }}/js/imagezoom.js"></script>
+    <script>
+        // Can also be used with $(document).ready()
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                controlNav: "thumbnails"
+            });
+        });
+    </script>
     <script type="text/javascript">
         jQuery(function() {
             jQuery('.starbox').each(function() {

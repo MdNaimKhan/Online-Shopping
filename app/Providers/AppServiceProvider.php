@@ -2,7 +2,9 @@
 
 namespace App\Providers;
 
+use App\Category;
 use Illuminate\Support\ServiceProvider;
+use View;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +15,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // View:: share('name','naim khan');
+//        View::composer(['front.home.home-content','front.home.home-content']or '*', function ($view){
+//            $view->with('name','naim khan');
+//        });
+        View::composer('front.includes.header', function ($view){
+           $view->with('publishedCategories',Category::where('publication_status', 1)->get());
+        });
+
     }
 
     /**
